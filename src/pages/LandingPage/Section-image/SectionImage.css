@@ -5,7 +5,9 @@
     margin: 0 auto;
     background-image: url('../../../assets/senderismo-1.jpg');
     background-size: cover;
+    
   }
+
 
 .container .column  .card {
     width: 240px;
@@ -22,7 +24,8 @@
 .container .column   .card-details {
     color: black;
     height: 100%;
-    gap: .5em;
+    width: 100%;
+    gap: .1em;
     display: grid;
     place-content: center;
    }
@@ -31,12 +34,14 @@
    
 .text-body {
     color: rgb(134, 134, 134);
+    font-style: italic;
    }
    
    /*Text*/
    .text-title {
     font-size: 1.5em;
     font-weight: bold;
+    
    }
    
    /*Hover*/
