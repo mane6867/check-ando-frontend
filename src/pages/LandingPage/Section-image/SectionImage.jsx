@@ -2,12 +2,15 @@ import './SectionImage.css'
 
 export default function SectionImage(){
     return(
-    <div className="container">
-        <div className="column">
+    <div className="container" >
             <div class="img"></div>
-        </div>
         <div className="column">
-            Columna 2
+        <div class="card">
+  <div class="card-details">
+    <p class="text-title">Card title</p>
+    <p class="text-body">Here are the details of the card</p>
+  </div>
+</div>
         </div>
     </div>)
 }
