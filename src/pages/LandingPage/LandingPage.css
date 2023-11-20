@@ -1,0 +1,18 @@
+.column {
+    flex: 1; /* Hace que las columnas se expandan para ocupar el espacio disponible */
+    padding: 20px; /* Añade un espacio interno a las columnas para separar el contenido del borde */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total de la columna */
+    align-items: center;
+}
+.container {
+    display: flex; /* Utiliza un contenedor flex para alinear las columnas */
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    justify-content: space-between;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
