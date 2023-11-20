@@ -1,0 +1,7 @@
+.container .column .img {
+    width: 30em;
+    height: 25em;
+    background: white;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
