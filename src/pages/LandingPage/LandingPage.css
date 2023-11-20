@@ -1,8 +1,11 @@
 .column {
-    flex: 1; /* Hace que las columnas se expandan para ocupar el espacio disponible */
-    padding: 20px; /* Añade un espacio interno a las columnas para separar el contenido del borde */
+    flex: 1; 
+    padding: 5%; /* Añade un espacio interno a las columnas para separar el contenido del borde */
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total de la columna */
+    display: flex;
+    justify-content: center;
     align-items: center;
+    color: white
 }
 .container {
     display: flex; /* Utiliza un contenedor flex para alinear las columnas */

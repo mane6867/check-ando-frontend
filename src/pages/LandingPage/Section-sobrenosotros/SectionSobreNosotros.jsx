@@ -1,6 +1,9 @@
+import './SectionSobreNosotros.css'
+
 
 export default function SectionSobreNosotros(){
-    return(<>
-    <h1>Seccion sobre nosotros</h1>
-    </>)
+    return(
+    <div className="cuadro">
+    <p1>Seccion sobre nosotros</p1>
+    </div>)
 }
