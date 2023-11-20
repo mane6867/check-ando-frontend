@@ -6,6 +6,7 @@ import Navbar from "./Navbar/Navbar"
 import LandingPage from "../pages/LandingPage/LandingPage"
 import './index.css'
 import Estadisticas from "../pages/Estadisticas"
+import Usuarios from "../pages/Usuarios/Usuarios.jsx"
 
 export default function Routing() {
     return(
@@ -16,6 +17,7 @@ export default function Routing() {
             <Route path="/welcome" element= {<UserWelcome/>}></Route>
             <Route path= "/estadisticas" element = {<Estadisticas/>}></Route>
             <Route path= "/" element = {<LandingPage/>}></Route>
+            <Route path= "/usuarios" element = {<Usuarios/>}></Route>
         </Routes>
         
         </BrowserRouter>

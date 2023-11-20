@@ -2,9 +2,10 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  padding: 0%;
-  align-items: center;
+  --text-color: rgba(255, 255, 255, 0.87);
+
   color-scheme: light dark;
-  background-color: black;
+  color: rgba(255, 255, 255, 0.87);
+  --bs-body-bg: #212121 !important;
 }
 
