@@ -6,7 +6,8 @@ import Navbar from "./Navbar/Navbar"
 import LandingPage from "../pages/LandingPage/LandingPage"
 import './index.css'
 import Estadisticas from "../pages/Estadisticas"
-import Usuarios from "../pages/Usuarios/Usuarios.jsx"
+import Usuarios from "../pages/Usuarios/Usuarios/Usuarios.jsx"
+import AgregarUsuario from "../pages/Usuarios/AgregarUsuario/AgregarUsuario"
 
 export default function Routing() {
     return(
@@ -18,6 +19,7 @@ export default function Routing() {
             <Route path= "/estadisticas" element = {<Estadisticas/>}></Route>
             <Route path= "/" element = {<LandingPage/>}></Route>
             <Route path= "/usuarios" element = {<Usuarios/>}></Route>
+            <Route path= "/agregar-usuario" element = {<AgregarUsuario/>}></Route>
         </Routes>
         
         </BrowserRouter>
