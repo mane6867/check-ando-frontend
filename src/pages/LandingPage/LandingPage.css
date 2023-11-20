@@ -5,13 +5,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white
+    text-align: center;
+    
 }
-.container {
+.container-lan {
     display: flex; /* Utiliza un contenedor flex para alinear las columnas */
     max-width: 100%; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor en la página */
-    justify-content: space-between;
+    margin: 0; /* Centra el contenedor en la página */
 }
 
 body, html {

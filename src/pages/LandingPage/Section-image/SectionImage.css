@@ -1,13 +1,15 @@
-.container .img {
+.container-lan .img {
     width: 110vh;
     height: 95vh;
     border-radius: 0px;
     margin: 0 auto;
     background-image: url('../../../assets/senderismo-1.jpg');
     background-size: cover;
+    
   }
 
-.container .column  .card {
+
+.container-lan .column  .card {
     width: 240px;
     height: 190px;
     border-radius: 15px;
@@ -19,10 +21,11 @@
     overflow: visible;
    }
    
-.container .column   .card-details {
+.container-lan .column   .card-details {
     color: black;
     height: 100%;
-    gap: .5em;
+    width: 100%;
+    gap: .1em;
     display: grid;
     place-content: center;
    }
@@ -31,21 +34,23 @@
    
 .text-body {
     color: rgb(134, 134, 134);
+    font-style: italic;
    }
    
    /*Text*/
    .text-title {
     font-size: 1.5em;
     font-weight: bold;
+    
    }
    
    /*Hover*/
-   .container .column .card:hover {
+   .container-lan .column .card:hover {
     border-color: rgb(28, 108, 48);
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
    }
    
-   .container .column .card:hover .card-button {
+   .container-lan .column .card:hover .card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
    }
