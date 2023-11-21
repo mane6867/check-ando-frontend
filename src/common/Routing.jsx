@@ -9,6 +9,7 @@ import Estadisticas from "../pages/Estadisticas"
 import Usuarios from "../pages/Usuarios/Usuarios/Usuarios.jsx"
 import AgregarUsuario from "../pages/Usuarios/AgregarUsuario/AgregarUsuario"
 import Login from "../pages/Login/Login.jsx"
+import PerfilUsuario from "../pages/Usuarios/PerfilUsuario/PerfilUsuario"
 
 
 export default function Routing() {
@@ -23,6 +24,7 @@ export default function Routing() {
             <Route path= "/usuarios" element = {<Usuarios/>}></Route>
             <Route path= "/agregar-usuario" element = {<AgregarUsuario/>}></Route>
             <Route path= "/login" element = {<Login/>}></Route>
+            <Route path="/usuarios/:nombre" element = {<PerfilUsuario/>}></Route>
         </Routes>
         
         </BrowserRouter>
