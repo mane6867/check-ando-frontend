@@ -8,7 +8,7 @@ export default function Login() {
     const navigate = useNavigate();
 
     const handleSubmit =  () => {
-    navigate("/main");
+    navigate("/main-page");
   
     };
 
