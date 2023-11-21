@@ -60,10 +60,11 @@ html, body {
 }
 
 
+
 .nav li.active {
-    background-color: #8bb1e9;
+    background-color: #102f1f;
 }
 
 .nav li:hover {
-    background-color: #7ba7e9;
+    background-color: #102f1f;
 }

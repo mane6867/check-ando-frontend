@@ -1,5 +1,17 @@
 import './MainPage.css'
+import { useNavigate } from "react-router-dom";
+
 export default function MainPage (){
+    const navigate = useNavigate()
+
+    const handleclickactividad = ()=> {
+        navigate('/actividad-reciente')
+    }
+
+    const handleclickalerta = ()=> {
+        navigate('/alertas-recientes')
+    }
+
     return(
         <div className= "container-mainpage"> 
             <div className="item1">
@@ -43,7 +55,7 @@ export default function MainPage (){
                                 <p class="p-main">Se ha registrado en el Checkpoint 4.</p>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-light mt-3" >Explorar</button>
+                            <button type="button" class="btn btn-light mt-3" onClick={handleclickactividad}>Explorar</button>
                         </div>
                     </div>
                 </div>
@@ -90,13 +102,14 @@ export default function MainPage (){
                                 <p class="p-main">No se ha registrado en ningún Checkpoint hace 8h.</p>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-light mt-3" >Explorar</button>
+                            <button type="button" class="btn btn-light mt-3" onClick={handleclickalerta}>Explorar</button>
                         </div>
                         
                     </div>
                 </div>
             </div>
             <div className="item3">
+                
                 <div className="image-container">
                         <div className='img'></div>
                 </div>    
