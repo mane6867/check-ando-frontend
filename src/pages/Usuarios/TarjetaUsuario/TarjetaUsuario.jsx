@@ -1,4 +1,5 @@
 import "./TarjetaUsuario.css"
+import { Link } from "react-router-dom"
 
 export default function TarjetaUsuario({ nombre }){
     return(<>
@@ -6,7 +7,9 @@ export default function TarjetaUsuario({ nombre }){
     <div class="card_load">
     </div>
     <div class="card_load_extreme_title">{nombre}</div>
-    <div class="card_load_extreme_descripion" >Ver Usuario</div>
+    <Link to={`/usuarios/${nombre}`}>
+        <div className="card_load_extreme_descripion">Ver Usuario</div>
+    </Link>
     </div>
     </>)
 }
