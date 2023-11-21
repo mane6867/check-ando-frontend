@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 500px;
     max-width: 33.33vw;
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 500px;
     max-width: 33.33vw;
 }
 
@@ -26,7 +26,7 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100px;
     max-width: 33.33vw;
 
 }
@@ -45,7 +45,7 @@
     text-align: center;
     justify-content: center;
     position: relative;
-    width: 220px;
+    width: 50%;
   }
   
   .titulo1 {
@@ -59,8 +59,8 @@
 }
   
   .rectangulo1 {
-    width: 60vh; /* Ajusta el ancho según sea necesario */
-    height: 70vh; /* Ajusta la altura según sea necesario */
+    width: 325px; /* Ajusta el ancho según sea necesario */
+    height: 400px; /* Ajusta la altura según sea necesario */
     background-color: rgb(51, 139, 79);
     border-radius: 10px;
     /* Otros estilos según sea necesario */
@@ -77,8 +77,8 @@
 }
   
   .rectangulo2 {
-    width: 60vh; /* Ajusta el ancho según sea necesario */
-    height: 70vh; /* Ajusta la altura según sea necesario */
+    width: 325px; /* Ajusta el ancho según sea necesario */
+    height: 400px; /* Ajusta la altura según sea necesario */
     background-color: red;
     border-radius: 10px;
     /* Otros estilos según sea necesario */
