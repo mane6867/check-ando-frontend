@@ -9,7 +9,7 @@ export default function MainPage (){
     }
 
     const handleclickalerta = ()=> {
-        navigate('/alertas-recientes')
+        navigate('/alertas-activas')
     }
 
     return(
