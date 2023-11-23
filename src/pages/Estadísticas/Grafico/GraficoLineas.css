@@ -1,0 +1,8 @@
+.container-lan .img-grafico-lineas {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url("./../grafico-lineas.png");
+    background-size: cover;
+    
+}

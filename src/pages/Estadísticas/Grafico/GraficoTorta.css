@@ -1,0 +1,8 @@
+.container-lan .img-grafico-torta {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url("./grafico-torta.png");
+    background-size: cover;
+    
+}
