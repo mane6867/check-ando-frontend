@@ -1,4 +1,6 @@
-.div-cuadrado-con-fondo {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.div-cuadrado-con-fondo-perfil {
     /* position: relative; */
     width: 100%; /* O cualquier otro ancho deseado */
     padding-bottom: 100%; /* Esto establece el alto del div como igual al ancho */

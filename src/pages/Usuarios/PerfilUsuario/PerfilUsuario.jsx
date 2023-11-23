@@ -9,8 +9,14 @@ export default function PerfilUsuario(){
     const { nombre } = useParams();
 
     const pStyle = { 
-        color: "white",
+        color: "black",
         textAlign: "left",
+        fontFamily: "Montserrat",
+    }
+
+    const h3Style = {
+        fontFamily: "Montserrat",
+        color:"white",
     }
 
     const actividades = [
@@ -41,29 +47,31 @@ export default function PerfilUsuario(){
                     <button className="btn btn-secondary mt-2 btn-light" style={ { color:"#00471e" } }>Eliminar</button>
                 </div>
                 <div className="col-md-4">
-                    <br></br>
-                    <h3 class="text-start" style={ { color:"white" } }> { nombre } </h3>
-                    <div style={ {backgroundColor:"#aeba85", borderRadius: "10px", padding: "25px"} }>
-                        <p style={ pStyle }>ID Usuario: 35</p>
-                        <p style={ pStyle }>218388101</p>
-                        <p style={ pStyle }> {nombre.toLowerCase().split(" ")}@mail.com</p>
-                        <p style={ pStyle }>Contacto de emergencia: {<br/>} Claudia Montero</p>
-                        <p style={ pStyle }> Celular contacto de emergiencia {<br/>} +56965966038</p>
+                    <div style={ {backgroundColor:"#aeba85", borderRadius: "10px", padding: "15px"} }>
+                        <h3 class="text-start" style={ h3Style }> { nombre } </h3>
+                        <div style={ {backgroundColor: "white", borderRadius: "10px", padding: "25px"} }>
+                            {/* <p style={ pStyle }>ID Usuario: 35</p> */}
+                            <p style={ pStyle }>DNI: 218388101</p>
+                            <p style={ pStyle }> {nombre.toLowerCase().split(" ")}@mail.com</p>
+                            <p style={ pStyle }>Contacto de emergencia: {<br/>} Claudia Montero</p>
+                            <p style={ pStyle }> Celular contacto de emergiencia {<br/>} +56965966038</p>
+                        </div>
                     </div>
                     <br></br>
-                    <h3 class="text-start" style={ { color:"white" } }>Situación actual</h3>
-                    <div style={ {backgroundColor:"#aeba85", borderRadius: "10px", padding: "25px"} }>
-                    <p style={ pStyle }>Último checkpoint marcado: 4</p>
-                    <p style={ pStyle }>Hora último marcado: 15:34</p>
-                    <p style={ pStyle }>Próximo checkpoint esperado: 5</p>
-                    <p style={ pStyle }>Hora esperada siguiente marcado: 16:12</p>
-                    {/* <h6 class="text-start" style={ { color:"white" } }>Alerta: Desactivada</h6> */}
+                    <div style={ {backgroundColor:"#aeba85", borderRadius: "10px", padding: "15px"} }>
+                        <h3 class="text-start" style={ h3Style }>Situación actual</h3>
+                        <div style={ {backgroundColor: "white", borderRadius: "10px", padding: "25px"} }>
+                            <p style={ pStyle }>Último checkpoint marcado: 4</p>
+                            <p style={ pStyle }>Hora último marcado: 15:34</p>
+                            <p style={ pStyle }>Próximo checkpoint esperado: 5</p>
+                            <p style={ pStyle }>Hora esperada siguiente marcado: 16:12</p>
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <br></br>
-                    <h3 class="text-start" style={ {color: "white"} }>Registro de Actividad</h3>
-                    <div style={ { backgroundColor: "#aeba85", height: '72vh', overflow:"scroll", borderRadius: "10px"} }>
+                    <div style={ { backgroundColor: "#aeba85", height: '72vh', overflow:"scroll", borderRadius: "10px", padding: "25px"} }>
+                        <h3 class="text-start" style={ h3Style }>Registro de Actividad</h3>
                         {actividades.map((actividad) => (
                             <div key={actividad.id} className="column">
                                 <TarjetaActividad nombre={nombre} tiempo={actividad.tiempo} actividad={actividad.actividad}/>

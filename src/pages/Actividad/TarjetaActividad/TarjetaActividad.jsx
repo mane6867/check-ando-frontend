@@ -5,6 +5,7 @@ export default function TarjetaActividad( { nombre, tiempo, actividad } ){
     const tarjetaActividadStyle = {
         backgroundColor: "white",
         width: "18rem",
+        fontFamily: "Montserrat",
     };
 
     return(
