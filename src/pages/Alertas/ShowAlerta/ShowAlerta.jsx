@@ -9,10 +9,10 @@ export default function ShowAlerta() {
   console.log(id);
 
   const alerta_total = [
-    { check: 2,tiempo_ult_check: 5, estado: "Sin ver", nombre: "Daniel Fuentealba", id: 1, tiempo: "1", alerta: "Se ha registrado un tiempo de demora de más de 2h" },
-    { check: 6,tiempo_ult_check: 6, estado: "Sin ver", nombre: "Carmen Silva", id: 2, tiempo: "1", alerta: "Se ha registrado un tiempo de demora de más de 3h" },
-    { check: 5,tiempo_ult_check: 4.5, estado: "Sin ver", nombre: "Roberto Vásquez", id: 3, tiempo: "3", alerta: "Se ha registrado un tiempo de demora de más de 2h" },
-    { check: 7,tiempo_ult_check: 8, estado: "Sin ver", nombre: "Camila Ogas", id: 4, tiempo: "5", alerta: "Se ha registrado un tiempo de demora de más de 3h" },
+    { check: 2,tiempo_ult_check: 5, estado: "Sin ver", nombre: "Antonella Montti", id: 1, tiempo: "1", alerta: "Se ha registrado un tiempo de demora de más de 2h" },
+    { check: 6,tiempo_ult_check: 6, estado: "Sin ver", nombre: "Martina Leppe", id: 2, tiempo: "1", alerta: "Se ha registrado un tiempo de demora de más de 3h" },
+    { check: 5,tiempo_ult_check: 4.5, estado: "Sin ver", nombre: "Matias Rojas", id: 3, tiempo: "3", alerta: "Se ha registrado un tiempo de demora de más de 2h" },
+    { check: 7,tiempo_ult_check: 8, estado: "Sin ver", nombre: "Bruno Flores", id: 4, tiempo: "5", alerta: "Se ha registrado un tiempo de demora de más de 3h" },
     { check: 5,tiempo_ult_check: 9, estado: "Recibidas", nombre: "Isabel Jofré", id: 5, tiempo: "5", alerta: "Se ha registrado un tiempo de demora de más de 3h" },
     { check: 3,tiempo_ult_check: 9, estado: "Recibidas", nombre: "Gabriela Pino", id: 6, tiempo: "8", alerta: "Se ha registrado un tiempo de demora de más de 3h" },
     { check: 4,tiempo_ult_check: 10, estado: "Trabajadas", nombre: "Diego Pérez", id: 7, tiempo: "10", alerta: "Se ha registrado un tiempo de demora de más de 3.5h" },

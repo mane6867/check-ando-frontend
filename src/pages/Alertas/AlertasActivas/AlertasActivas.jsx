@@ -6,10 +6,10 @@ import { useState } from 'react';
 export default function AlertasActivas () {
     const navigate = useNavigate();
     const alerta_total = [
-        {estado: "Sin ver" ,nombre: "Daniel Fuentealba", id: 1, tiempo: "1", alerta: "No se ha registrado en ningún checkpoint en las últimas 5h"},
-        {estado: "Sin ver" ,nombre: "Carmen Silva", id: 2, tiempo: "1", alerta: "No se ha registrado en ningún checkpoint en las últimas 6h"},
-        {estado: "Sin ver" ,nombre: "Roberto Vásquez", id: 3, tiempo: "3", alerta: "No se ha registrado en ningún checkpoint en las últimas 4.5h"},
-        {estado: "Sin ver" ,nombre: "Camila Ogas" , id: 4, tiempo: "5", alerta: "No se ha registrado en ningún checkpoint en las últimas 8h"},
+        {estado: "Sin ver" ,nombre: "Antonella Montti", id: 1, tiempo: "1", alerta: "No se ha registrado en ningún checkpoint en las últimas 5h"},
+        {estado: "Sin ver" ,nombre: "Martina Leppe", id: 2, tiempo: "1", alerta: "No se ha registrado en ningún checkpoint en las últimas 6h"},
+        {estado: "Sin ver" ,nombre: "Matias Rojas", id: 3, tiempo: "3", alerta: "No se ha registrado en ningún checkpoint en las últimas 4.5h"},
+        {estado: "Sin ver" ,nombre: "Bruno Flores" , id: 4, tiempo: "5", alerta: "No se ha registrado en ningún checkpoint en las últimas 8h"},
         {estado: "Recibidas" ,nombre: "Isabel Jofré" , id: 5, tiempo: "5", alerta: "No se ha registrado en ningún checkpoint en las últimas 9h"},
         {estado: "Recibidas" ,nombre: "Gabriela Pino" , id: 6, tiempo: "8", alerta: "No se ha registrado en ningún checkpoint en las últimas 9h"},
         {estado: "Trabajadas",nombre: "Diego Pérez" , id: 7, tiempo: "10", alerta: "No se ha registrado en ningún checkpoint en las últimas 10h"},
