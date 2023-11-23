@@ -1,6 +1,6 @@
 .container-lan .img {
-    width: 110vh;
-    height: 95vh;
+    width: 140vh;
+    height: 85vh;
     border-radius: 0px;
     margin: 0 auto;
     background-image: url('../../../assets/senderismo-1.jpg');
@@ -22,7 +22,7 @@
    }
    
 .container-lan .column   .card-details {
-    color: black;
+    color: #212121;
     height: 100%;
     width: 100%;
     gap: .1em;
@@ -41,6 +41,7 @@
    .text-title {
     font-size: 1.5em;
     font-weight: bold;
+    font-family: "Montserrat";
     
    }
    
@@ -48,6 +49,10 @@
    .container-lan .column .card:hover {
     border-color: rgb(28, 108, 48);
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+
+   .container-lan .column {
+    background-color: #8c8884;
    }
    
    .container-lan .column .card:hover .card-button {

@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import TarjetaActividad from '../../Actividad/TarjetaActividad/TarjetaActividad';
 import "./../../../assets/mapa.jpeg"
+import FotoPerfil from "./FotoPerfil/FotoPerfil.jsx"
 
 export default function PerfilUsuario(){
 
@@ -29,8 +30,11 @@ export default function PerfilUsuario(){
             <br></br>
             <div className="row">
                 <div className="col-md-4">
-                    <div className="div-cuadrado-con-fondo">
-                    </div>
+                    <br></br>
+                    <br></br>
+                    <FotoPerfil/>
+                    <br></br>
+                    <br></br>
                     <br></br>
                     <button className="btn btn-primary mt-2 btn-success">Editar</button>
                     <br></br>
@@ -39,22 +43,27 @@ export default function PerfilUsuario(){
                 <div className="col-md-4">
                     <br></br>
                     <h3 class="text-start" style={ { color:"white" } }> { nombre } </h3>
-                    <p style={ pStyle }>ID Usuario: 35</p>
-                    <p style={ pStyle }>218388101</p>
-                    <p style={ pStyle }> {nombre.toLowerCase().split(" ")}@mail.com</p>
-                    <p style={ pStyle }>Contacto de emergencia: {<br/>} Claudia Montero</p>
-                    <p style={ pStyle }> Celular contacto de emergiencia {<br/>} +56965966038</p>
-                    <h1 class="text-start" style={ { color:"white" } }>Situación actual</h1>
+                    <div style={ {backgroundColor:"#aeba85", borderRadius: "10px", padding: "25px"} }>
+                        <p style={ pStyle }>ID Usuario: 35</p>
+                        <p style={ pStyle }>218388101</p>
+                        <p style={ pStyle }> {nombre.toLowerCase().split(" ")}@mail.com</p>
+                        <p style={ pStyle }>Contacto de emergencia: {<br/>} Claudia Montero</p>
+                        <p style={ pStyle }> Celular contacto de emergiencia {<br/>} +56965966038</p>
+                    </div>
+                    <br></br>
+                    <h3 class="text-start" style={ { color:"white" } }>Situación actual</h3>
+                    <div style={ {backgroundColor:"#aeba85", borderRadius: "10px", padding: "25px"} }>
                     <p style={ pStyle }>Último checkpoint marcado: 4</p>
                     <p style={ pStyle }>Hora último marcado: 15:34</p>
                     <p style={ pStyle }>Próximo checkpoint esperado: 5</p>
                     <p style={ pStyle }>Hora esperada siguiente marcado: 16:12</p>
-                    <h3 class="text-start" style={ { color:"white" } }>Alerta: Desactivada</h3>
+                    {/* <h6 class="text-start" style={ { color:"white" } }>Alerta: Desactivada</h6> */}
+                    </div>
                 </div>
                 <div className="col-md-4">
                     <br></br>
                     <h3 class="text-start" style={ {color: "white"} }>Registro de Actividad</h3>
-                    <div style={ { backgroundColor: "#00471e", height: '70vh', overflow:"scroll" } }>
+                    <div style={ { backgroundColor: "#aeba85", height: '72vh', overflow:"scroll", borderRadius: "10px"} }>
                         {actividades.map((actividad) => (
                             <div key={actividad.id} className="column">
                                 <TarjetaActividad nombre={nombre} tiempo={actividad.tiempo} actividad={actividad.actividad}/>
