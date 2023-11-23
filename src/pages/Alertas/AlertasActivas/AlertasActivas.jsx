@@ -47,7 +47,7 @@ export default function AlertasActivas () {
             <div className='elementos-alerta'>
                 <div className='container-titulo-alerta'>
                     <div className='titulo-alerta'>
-                        ALERTAS ACTIVAS
+                        ALERTAS
                     </div>
                     <select name="tipo_alerta" onChange={handleOptionChange}>
                         <option key="1" value="activo" >
