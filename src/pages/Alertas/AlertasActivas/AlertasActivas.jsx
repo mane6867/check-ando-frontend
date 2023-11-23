@@ -10,15 +10,15 @@ export default function AlertasActivas () {
         {estado: "Sin ver" ,nombre: "Martina Leppe", id: 2, tiempo: "1", alerta: "No se ha registrado en ningún checkpoint en las últimas 6h"},
         {estado: "Sin ver" ,nombre: "Matias Rojas", id: 3, tiempo: "3", alerta: "No se ha registrado en ningún checkpoint en las últimas 4.5h"},
         {estado: "Sin ver" ,nombre: "Bruno Flores" , id: 4, tiempo: "5", alerta: "No se ha registrado en ningún checkpoint en las últimas 8h"},
-        {estado: "Recibidas" ,nombre: "Isabel Jofré" , id: 5, tiempo: "5", alerta: "No se ha registrado en ningún checkpoint en las últimas 9h"},
-        {estado: "Recibidas" ,nombre: "Gabriela Pino" , id: 6, tiempo: "8", alerta: "No se ha registrado en ningún checkpoint en las últimas 9h"},
-        {estado: "Trabajadas",nombre: "Diego Pérez" , id: 7, tiempo: "10", alerta: "No se ha registrado en ningún checkpoint en las últimas 10h"},
-        {estado: "Trabajadas",nombre: "Cynthia López" , id: 8, tiempo: "12", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
-        {estado: "Trabajadas",nombre: "Mauricio Saavedra" , id: 9, tiempo: "16", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
-        {estado: "Trabajadas",nombre: "Sebastián Ayala" , id: 10, tiempo: "26", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
-        {estado: "Trabajadas",nombre: "Paz Fuentalba" , id: 11, tiempo: "34", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
-        {estado: "Trabajadas",nombre: "Martín Carrasco" , id: 12, tiempo: "42", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
-        {estado: "Trabajadas",nombre: "Carmen Quispe" , id: 13, tiempo: "46", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
+        {estado: "Recibida" ,nombre: "Isabel Jofré" , id: 5, tiempo: "5", alerta: "No se ha registrado en ningún checkpoint en las últimas 9h"},
+        {estado: "Recibida" ,nombre: "Gabriela Pino" , id: 6, tiempo: "8", alerta: "No se ha registrado en ningún checkpoint en las últimas 9h"},
+        {estado: "Trabajada",nombre: "Diego Pérez" , id: 7, tiempo: "10", alerta: "No se ha registrado en ningún checkpoint en las últimas 10h"},
+        {estado: "Trabajada",nombre: "Cynthia López" , id: 8, tiempo: "12", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
+        {estado: "Trabajada",nombre: "Mauricio Saavedra" , id: 9, tiempo: "16", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
+        {estado: "Trabajada",nombre: "Sebastián Ayala" , id: 10, tiempo: "26", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
+        {estado: "Trabajada",nombre: "Paz Fuentalba" , id: 11, tiempo: "34", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
+        {estado: "Trabajada",nombre: "Martín Carrasco" , id: 12, tiempo: "42", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
+        {estado: "Trabajada",nombre: "Carmen Quispe" , id: 13, tiempo: "46", alerta: "No se ha registrado en ningún checkpoint en las últimas 15h"},
     ]
 
     const [alertas, setAlertas] = useState(alerta_total.filter((alerta) => alerta.estado === 'Sin ver'))
@@ -34,11 +34,11 @@ export default function AlertasActivas () {
             setAlertas(alertasActivas);
         }
         if (event.target.value==="recibida"){
-            const alertasRecibidas = alerta_total.filter((alerta) => alerta.estado === 'Recibidas');
+            const alertasRecibidas = alerta_total.filter((alerta) => alerta.estado === 'Recibida');
             setAlertas(alertasRecibidas);
         }
         if (event.target.value==="trabajada"){
-            const alertasTrabajadas = alerta_total.filter((alerta) => alerta.estado === 'Trabajadas');
+            const alertasTrabajadas = alerta_total.filter((alerta) => alerta.estado === 'Trabajada');
             setAlertas(alertasTrabajadas);
         }
     }
