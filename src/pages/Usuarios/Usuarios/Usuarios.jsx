@@ -61,7 +61,7 @@ export default function Usuarios(){
         <input type="text" class="form-control" placeholder="RUT/DNI" aria-label="" aria-describedby="basic-addon1" style={ inputStyle }/>
         </div>
         <Link to='/agregar-usuario'>
-            <button class="btn btn-outline-secondary" type="button" className="btn btn-success" style={ buttonStyle }>Agegar Usuario</button>
+            <button class="btn btn-outline-secondary" type="button" className="btn btn-success" style={ buttonStyle }>Agregar Usuario</button>
         </Link>
     </div>
     <div className="tablero">
