@@ -1,7 +1,7 @@
-.container-lan .img {
+.container-lan .img-perfil {
     width: 350px;
     height: 350px;
-    border-radius: 0px;
+    border-radius: 15px;
     margin: 0 auto;
     background-image: url('./perfil.jpeg');
     background-size: cover;

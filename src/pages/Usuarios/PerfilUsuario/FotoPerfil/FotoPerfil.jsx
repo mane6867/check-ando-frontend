@@ -4,7 +4,7 @@ export default function SectionImage(){
 
     return(
     <div className="container-lan" >
-        <div class="img"></div>
+        <div class="img-perfil"></div>
     </div>
     )
 }
