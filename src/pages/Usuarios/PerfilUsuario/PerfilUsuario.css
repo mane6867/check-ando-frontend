@@ -1,9 +1,11 @@
 .div-cuadrado-con-fondo {
-    position: relative;
+    /* position: relative; */
     width: 100%; /* O cualquier otro ancho deseado */
     padding-bottom: 100%; /* Esto establece el alto del div como igual al ancho */
-    overflow: hidden; /* Asegura que cualquier contenido adicional se recorte */
-    background-image: url('perfil.jpeg'); /* Ruta de tu imagen de fondo */
+    /* overflow: hidden; Asegura que cualquier contenido adicional se recorte */
+    background-image: url('./perfil.jpeg'); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo del div */
     background-position: center; /* Centra la imagen en el fondo del div */
+    background-color: white;
+    color: white;
 }
