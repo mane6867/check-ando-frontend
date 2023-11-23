@@ -28,7 +28,6 @@ export default function PerfilUsuario(){
         {id: 6, tiempo: "59", actividad: "Se ha inscrito como usuario check-ando"},
     ]
 
-    console.log(nombre)
 
     return(
         <div className="container">

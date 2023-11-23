@@ -10,6 +10,7 @@ import PerfilUsuario from "../pages/Usuarios/PerfilUsuario/PerfilUsuario"
 import MainPage from "../pages/MainPage/MainPage.jsx"
 import ActividadReciente from "../pages/Actividad/ActividadReciente/ActividadReciente.jsx"
 import AlertasActivas from "../pages/Alertas/AlertasActivas/AlertasActivas"
+import ShowAlerta from "../pages/Alertas/ShowAlerta/ShowAlerta.jsx"
 
 
 
@@ -27,7 +28,8 @@ export default function Routing() {
             <Route path="/usuarios/:nombre" element = {<PerfilUsuario/>}></Route>
             <Route path= "/main-page" element = {<MainPage/>}></Route>
             <Route path= "/actividad-reciente" element = {<ActividadReciente/>}></Route>
-            <Route path= "/alertas-activas" element = {<AlertasActivas/>}></Route>
+            <Route path= "/alertas" element = {<AlertasActivas/>}></Route>
+            <Route path="/alertas/:id" element = {<ShowAlerta/>}></Route>
         </Routes>
         
         </BrowserRouter>
