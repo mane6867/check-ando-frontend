@@ -66,3 +66,9 @@
     margin-bottom: auto;
     margin-top: auto;
    }
+
+   @media (max-width: 576px) {
+    .text-title {
+        font-size: 1em; /* Tamaño de letra para pantallas más pequeñas */
+    }
+}
