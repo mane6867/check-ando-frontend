@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import TarjetaActividad from '../../Actividad/TarjetaActividad/TarjetaActividad';
-import '../../../public/mapa.jpeg'
 import FotoPerfil from "./FotoPerfil/FotoPerfil.jsx"
 
 export default function PerfilUsuario(){
