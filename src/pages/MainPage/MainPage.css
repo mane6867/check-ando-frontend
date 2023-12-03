@@ -159,7 +159,7 @@
     width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
     border-radius: 10px;
-    background-image: url('../../assets/mapa.jpeg');
+    background-image: url('../../../public/mapa.jpeg');
     background-size: cover;
     margin-left: 10%;
     margin-top: 20%;

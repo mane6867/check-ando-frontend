@@ -3,7 +3,7 @@
     height: 85vh;
     border-radius: 0px;
     margin: 0 auto;
-    background-image: url('../../../assets/senderismo-1.jpg');
+    background-image: url('../../../../public/senderismo-1.jpg');
     background-size: cover;
     
   }
