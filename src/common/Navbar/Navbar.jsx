@@ -12,7 +12,6 @@ export default function Navbar (){
         <ul>
             {/* <CustomLink to="/path_que_mostrará">Nombre_visible_en_navbar</CustomLink> */}
             <CustomLink to="/main-page">Inicio</CustomLink>
-            <CustomLink to="/estadisticas">Estadísticas</CustomLink>
             <CustomLink to="/usuarios">Usuarios</CustomLink>
 
             
