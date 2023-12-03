@@ -13,11 +13,9 @@ export default function SectionImage(){
         </div>
         <div className="column">
           <div className="card">
-          <div class="card-details">
-            <p class="text-title">CHECK-ANDO</p>
-            <p class="text-body">"Deja tu marca en los senderos, explora sin miedo"</p>
-            <button type="button" class="btn btn-success btn-sm" data-bs-toggle="button" onClick={handlelogin}>Iniciar sesión</button>
-          </div>
+              <p class="text-title">CHECK-ANDO</p>
+              <p class="text-body">"Deja tu marca en los senderos, explora sin miedo"</p>
+              <button type="button" class="btn btn-success btn-sm" data-bs-toggle="button" onClick={handlelogin}>Iniciar sesión</button>
           </div>
         </div>
     </div>)

@@ -7,21 +7,21 @@ import { Link } from "react-router-dom"
 export default function Usuarios(){
 
     const usuarios1 = [
-        { id: 1, nombre: "Magdalena Pino"},
-        { id: 2, nombre: "Camila Ogas"},
-        { id: 3, nombre: "Sofía Barraza"},
-        { id: 4, nombre: "Soledad Bravo"},
-        { id: 5, nombre: "Isabel Jofré"},
-        { id: 11, nombre: "Magdalena Pino"},
-        { id: 12, nombre: "Camila Ogas"},
-        { id: 13, nombre: "Juan Bodoque"},
-        { id: 14, nombre: "Andrés Birke"},
-        { id: 15, nombre: "Esperanza Riquelma"},
-        { id: 21, nombre: "Magdalena Casas"},
-        { id: 22, nombre: "Fernanda Donoso"},
-        { id: 23, nombre: "Francisca Vergara"},
-        { id: 24, nombre: "Isidora Lazo"},
-        { id: 25, nombre: "Javiera Sotomayor"},
+        { id: 1, nombre: "Magdalena Pino", image: "/imagen-1-user.jpg"},
+        { id: 2, nombre: "Camila Ogas", image: "/imagen-1-user.jpg"},
+        { id: 3, nombre: "Sofía Barraza", image: "/imagen-1-user.jpg"},
+        { id: 4, nombre: "Soledad Bravo", image: "/imagen-1-user.jpg"},
+        { id: 5, nombre: "Isabel Jofré", image: "/imagen-1-user.jpg"},
+        { id: 11, nombre: "Magdalena Pino", image: "/imagen-1-user.jpg"},
+        { id: 12, nombre: "Camila Ogas", image: "/imagen-1-user.jpg"},
+        { id: 13, nombre: "Juan Bodoque", image: "/imagen-1-user.jpg"},
+        { id: 14, nombre: "Andrés Birke", image: "/imagen-1-user.jpg"},
+        { id: 15, nombre: "Esperanza Riquelma", image: "/imagen-1-user.jpg"},
+        { id: 21, nombre: "Magdalena Casas", image: "/imagen-1-user.jpg"},
+        { id: 22, nombre: "Fernanda Donoso", image: "/imagen-1-user.jpg"},
+        { id: 23, nombre: "Francisca Vergara", image: "/imagen-1-user.jpg"},
+        { id: 24, nombre: "Isidora Lazo", image: "/imagen-1-user.jpg"},
+        { id: 25, nombre: "Javiera Sotomayor", image: "/imagen-1-user.jpg"},
     ]
 
     const inputStyle = {
@@ -68,7 +68,7 @@ export default function Usuarios(){
         <div className="row">
             {usuarios1.map((usuario) => (
             <div key={usuario.id} className="column">
-                <TarjetaUsuario nombre={usuario.nombre} />
+                <TarjetaUsuario nombre={usuario.nombre} fotografía= {usuario.image}/>
             </div>
             ))}
         </div>

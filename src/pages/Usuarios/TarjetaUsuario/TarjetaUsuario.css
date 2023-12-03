@@ -15,8 +15,7 @@
     height: 85px;
     position: relative;
     float: left;
-    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
-    40%, #e5e5e5 48%);
+    background-image: url("/imagen-1-user.jpg");
     border-radius: 50%;
     background-size: 200% 100%;
     background-position: 100% 0;
