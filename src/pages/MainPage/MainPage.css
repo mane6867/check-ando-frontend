@@ -1,6 +1,7 @@
 .container-mainpage{
         display: flex; /* Utiliza un contenedor flex para alinear las columnas */
         max-width: 100%; /* Ancho máximo del contenedor */
+        flex-wrap: wrap;
 
 }
 
@@ -10,7 +11,6 @@
     align-items: center;
     justify-content: center;
     height: 500px;
-    max-width: 33.33vw;
 }
 
 .item2 {
@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: center;
     height: 500px;
-    max-width: 33.33vw;
 }
 
 .item3 {
@@ -27,8 +26,14 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    max-width: 33.33vw;
+    
 
+}
+
+.item1, .item2, .item3 {
+  flex-basis: 200; /* O utiliza width: 100%; */
+  /* Resto de tu estilo... */
+  max-width: 100%
 }
 
 .text-hi {
@@ -163,6 +168,7 @@
     background-size: cover;
     margin-left: 10%;
     margin-top: 20%;
+    text-align: center;
 
 }
 
