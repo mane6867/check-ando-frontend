@@ -49,7 +49,7 @@ export default function AlertasActivas () {
                     <div className='titulo-alerta'>
                         ALERTAS
                     </div>
-                    <select name="tipo_alerta" onChange={handleOptionChange}>
+                    <select name="tipo_alerta" className="form-control dropdown-blanco" style={{maxWidth: "100px"}} onChange={handleOptionChange}>
                         <option key="1" value="activo" >
                             Sin ver
                         </option>
