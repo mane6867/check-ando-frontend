@@ -109,10 +109,11 @@ export default function MainPage (){
                 </div>
             </div>
             <div className="item3">
-                
+                <div className='contenedor-imagen'>
                 <div className="image-container">
                         <div className='img'></div>
-                </div>    
+                </div>
+                 </div>
                 <div className='elementos-column3'>
                     <div className="titulo-pulseras">Usuarios activos: 121</div>
                     <div className="titulo-pulseras">Alertas recibidas: 2</div>

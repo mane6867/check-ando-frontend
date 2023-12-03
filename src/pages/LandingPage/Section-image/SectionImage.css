@@ -3,9 +3,15 @@
     height: 85vh;
     border-radius: 0px;
     margin: 0 auto;
-    background-image: url('../../../../public/senderismo-1.jpg');
+    background-image: url('/senderismo-1.jpg');
     background-size: cover;
+    flex-basis: 200;
     
+  }
+
+  .container-lan {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 
@@ -53,6 +59,8 @@
 
    .container-lan .column {
     background-color: #8c8884;
+    flex-grow: 1;
+    flex-basis: 200;
    }
    
    .container-lan .column .card:hover .card-button {

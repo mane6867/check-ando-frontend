@@ -49,8 +49,9 @@
 .elementos-column3 {
     text-align: center;
     justify-content: center;
-    position: relative;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .titulo1 {
@@ -147,7 +148,6 @@
   }
 
   .titulo-pulseras {
-    margin-left: 40%;
     width: 220px;
     background-color: gray;
     color: white;
@@ -166,10 +166,14 @@
     border-radius: 10px;
     background-image: url('../../../public/mapa.jpeg');
     background-size: cover;
-    margin-left: 10%;
     margin-top: 20%;
     text-align: center;
+}
 
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-mainpage .item2 .elementos .image-container img {
