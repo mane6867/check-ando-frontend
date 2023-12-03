@@ -43,7 +43,7 @@
    
    /*Text*/
    .text-title {
-    font-size: 1.5em;
+    font-size: 1.1em  !important;
     font-weight: bold;
     font-family: "Montserrat";
     
@@ -66,9 +66,3 @@
     margin-bottom: auto;
     margin-top: auto;
    }
-
-   @media (max-width: 576px) {
-    .text-title {
-        font-size: 1em; /* Tamaño de letra para pantallas más pequeñas */
-    }
-}
