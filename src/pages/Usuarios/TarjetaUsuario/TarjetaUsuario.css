@@ -15,10 +15,9 @@
     height: 85px;
     position: relative;
     float: left;
-    background-image: url("/imagen-1-user.jpg");
     border-radius: 50%;
-    background-size: 200% 100%;
     background-position: 100% 0;
+    background-size: cover;
     color: #212121;
     display: flex;
     align-items: center;

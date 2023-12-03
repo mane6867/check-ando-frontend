@@ -36,7 +36,7 @@ export default function PerfilUsuario(){
                 <div className="col-md-4">
                     <br></br>
                     <br></br>
-                    <FotoPerfil/>
+                    <FotoPerfil nombre_usuario= {nombre}/>
                     <br></br>
                     <br></br>
                     <br></br>
